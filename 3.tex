@@ -1,12 +1,3 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
-\usepackage{preamble}
-
-\author{Мемный Flicky }
-\date{November 2023}
-
-\begin{document}
-
 \section{Задание 3. Аналитическое задание множества.}
 
 \textbf{Условие.}
@@ -28,9 +19,9 @@
 
 Введём декартову прямоугольную систему координат.
 
-Определим функцию Distance(a, b) как растояние на плоскости между двумя точками: a и b:
+Определим функцию $Distance(a, b)$ как растояние на плоскости между двумя точками: a и b:
 
-Distance(a, b) = $\sqrt{(a_x - b_x)^2 + (a_y - b_y)^2}$
+$Distance(a, b) = \sqrt{(a_x - b_x)^2 + (a_y - b_y)^2}$
 
 Таким образом ГМТ в ПДСК выглядит как: $\Set{c \mid 2*Distance(A, c) = Distance(B, c)}$, где $c$ -  точка на траектории заданного движения.
 
@@ -38,7 +29,10 @@ Distance(a, b) = $\sqrt{(a_x - b_x)^2 + (a_y - b_y)^2}$
 
 Пусть у точки $c$ координаты $(x, y)$, тогда:
 
-$\cfrac{\sqrt{(x-B_x)^2 + (y - B_y)^2}}{\sqrt{(x-A_x)^2 + (y-A_y)^2}} = 2$\\\\
+\vspace{1mm}
+
+$\displaystyle \frac{\sqrt{(x-B_x)^2 + (y - B_y)^2}}{\sqrt{(x-A_x)^2 + (y-A_y)^2}} = 2$\\
+\vspace{1mm}
 
 $\sqrt{(x-B_x)^2 + (y - B_y)^2} = 2 \sqrt{(x-A_x)^2 + (y-A_y)^2}$
 
@@ -69,4 +63,3 @@ $\cfrac{x^2}{a^2} + \cfrac{y^2}{b^2} = 1$
 \includegraphics[width=0.9\linewidth]{images/3_ball.png}
 
 \clearpage
-\end{document}
